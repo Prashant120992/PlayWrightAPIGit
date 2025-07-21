@@ -63,3 +63,4 @@ def test_get_user(api_context:APIRequestContext):
     print(user_data)
     assert "firstName" in user_data
     assert user_data["id"]==1
+    assert "lastName" in user_data
